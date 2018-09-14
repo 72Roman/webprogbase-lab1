@@ -46,20 +46,17 @@ body {
 }	
 /* ----- Table style ----- */
 table {
-	align-self: center;
 	border-collapse: collapse;
 	empty-cells: show;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	width: 100%	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
 }
-
-#users td {
+td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 5px;
 }
-#users th{
-	padding-top: 10px;
-	padding-bottom: 10px;
+th{
+	padding-top: 8px;
+	padding-bottom: 8px;
 	text-align: center;
 	background-color: yellowgreen;
 	color: white;
@@ -67,7 +64,9 @@ table {
 }
 
 /* ------ User Page Style ------ */
-
+#users {
+	width: 100%;
+}
 #userDescription {
 	display: flex;
 	flex-direction: column;
@@ -80,6 +79,17 @@ table {
 }
 #fullName {
 	margin-left: 40px;
+}
+
+/* ------ Transaction Page Style ------ */
+#transactionsTable{
+	align-self: center;
+	text-align: center;
+	width: 50%;
+}
+#transactionsList {
+	display: flex;
+	flex-direction: column;
 }
 
 
