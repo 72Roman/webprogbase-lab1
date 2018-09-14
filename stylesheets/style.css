@@ -1,0 +1,33 @@
+
+#mainPage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+#content {
+	display: flex;
+	background-color: blueviolet;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+}
+#content > div {
+	background-color: brown;
+	margin: 10px;
+	padding: 10px;
+
+}
+#description {
+	font-size: 20px;
+}
+#menu {
+	font-size: 20px;
+}
+
+#title {
+	background-color: red;
+}
+
+
+
