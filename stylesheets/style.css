@@ -1,7 +1,7 @@
 body {
 	background-color: aqua;
 }
-#mainPage {
+.mainPage {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -9,20 +9,22 @@ body {
 	margin-left: 45px;
 }
 
-#content {
+.content {
 	display: flex;
 	background-color: aquamarine;
 	flex-direction: row;
 	height: 500px;
 	
 }
-#title {
+.title {
 	background-color: red;
 	height: 100px;
+	font-size: 40px;
+	opacity: 0.9;
 	text-align: center;
-	opacity: 0.7
+	padding: 10px
 }
-#content > div {
+.content > div {
 	background-color: burlywood;
 	margin: 10px;
 	padding: 10px;
@@ -30,10 +32,11 @@ body {
 #description {
 	font-size: 20px;
 	height: 450px;
+	width: 80%
 }
 #menu {
 	font-size: 20px;
-	height: 100px;
+	height: 150px;
 }	
 
 
