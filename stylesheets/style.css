@@ -32,12 +32,36 @@ body {
 .description {
 	font-size: 20px;
 	height: 450px;
-	width: 80%
+	width: 80%;
+}
+#indexDescription {
+	text-align: center
 }
 #menu {
 	font-size: 20px;
 	height: 150px;
 }	
+/* Table style */
+table {
+	align-self: center;
+	border-collapse: collapse;
+	empty-cells: show;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 100%	
+}
+
+#users td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#users th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: yellowgreen;
+	color: white;
+	border: 1px solid #ddd
+}
 
 
 
