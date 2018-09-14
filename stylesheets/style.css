@@ -1,6 +1,9 @@
 body {
 	background-color: aqua;
 }
+
+/* ------ Main Page style ------ */
+
 .mainPage {
 	display: flex;
 	flex-direction: column;
@@ -41,7 +44,7 @@ body {
 	font-size: 20px;
 	height: 150px;
 }	
-/* Table style */
+/* ----- Table style ----- */
 table {
 	align-self: center;
 	border-collapse: collapse;
@@ -63,6 +66,21 @@ table {
 	border: 1px solid #ddd
 }
 
+/* ------ User Page Style ------ */
+
+#userDescription {
+	display: flex;
+	flex-direction: column;
+}
+#personalData {
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+	padding: 5px;
+}
+#fullName {
+	margin-left: 40px;
+}
 
 
 
