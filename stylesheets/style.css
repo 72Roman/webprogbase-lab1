@@ -1,7 +1,6 @@
 body {
-	background-color: aqua;
+	background-color: white
 }
-
 /* ------ Main Page style ------ */
 
 .mainPage {
@@ -49,14 +48,17 @@ table {
 	border-collapse: collapse;
 	empty-cells: show;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+	width: 100%;
 }
 td {
     border: 1px solid #ddd;
-    padding: 5px;
+	padding: 5px;
+	text-align: center
 }
 th{
 	padding-top: 8px;
 	padding-bottom: 8px;
+	padding: 8px;
 	text-align: center;
 	background-color: yellowgreen;
 	color: white;
@@ -76,9 +78,11 @@ th{
 	flex-direction: row;
 	margin: 5px;
 	padding: 5px;
+	justify-content: center
 }
-#fullName {
+#fullName, #authorName {
 	margin-left: 40px;
+	width: 100%
 }
 
 /* ------ Transaction Page Style ------ */
@@ -101,12 +105,18 @@ li a {
 	padding: 8px 16px;
 	color: #000;
 	text-decoration: none;
-
 }
 li a:hover {
 	background-color: rgb(160, 133, 133);
     color: white;
 }
+li a.active {
+    background-color: #1476CC;
+    color: white;
+}
+
+
+
 
 
 
